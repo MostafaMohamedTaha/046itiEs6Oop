@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body class="bg-slate-700">
+
+  <div class="m-3 flex justify-center items-center">
+    <select name="selectItems" id="dropdown" class="bg-teal-700 text-white p-3 m-3 rounded-2xl"
+    onchange="btnDisplay(event)"
+    >
+        <option value="select item" selected >select item</option>
+      </select>
+      <button  id="showButton"
+      onclick="showImage()"
+      hidden  class="bg-blue-500 m-3 px-5 py-3 border-2 rounded-2xl">Show Image</button>
+    </div>
+    <div class="m-3 flex justify-center items-center">
+      <img src="" alt="image for username" id="imgInput" class="border-2 border-white rounded-2xl">
+    </div>
+    <!-- question 3  -->
+    <div class="m-3 flex justify-center items-center">
+      <button onclick="getPosts()" class="bg-blue-500 m-3 px-5 py-3 border-2 rounded-2xl text-5xl text-white" id="getPosts"> Show Posted Data</button>
+      <a class="bg-teal-500 m-3 px-5 py-3 border-2 rounded-2xl text-5xl text-white" href="./pages/promise.html"> promise page</a>
+    </div>
+
+
+    
+    
+    <script src="main.js" async defer></script>
+</body>
+
+</html>
